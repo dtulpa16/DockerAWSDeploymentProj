@@ -1,0 +1,9 @@
+version: '3.9'
+
+services:
+  youtubeclone:
+    container_name: youtubeclone
+    image: dtulpa16/ytcfrontend:latest
+
+    ports:
+    - "80:80"
